@@ -1,0 +1,217 @@
+:root {
+    --color-iris: #4d5ae5;
+    --color-ocean: #404bbf;
+    --color-slate: #434455;
+    --color-cloud: #f4f4fd;
+    --color-white: #ffffff;
+    --color-navy-blue: #2e2f42;
+    --color-black: #000000;
+    --color-green: #31D0AA;
+}
+
+img {
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 120px 0px;
+}
+
+.content-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px
+}
+
+.section1-text {
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--color-navy-blue);
+    line-height: 3.75em;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+}
+
+.section1-content {
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--color-slate);
+}
+
+.feature {
+    width: calc((100% - 72px) / 4);
+}
+
+.feature-icons {
+    height: 112px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background-color: var(--color-cloud);
+    margin-bottom: 8px;
+}
+
+.feature-icon {
+    margin: 24px 100px;
+}
+
+/* our team */
+.our-team {
+    background-color: var(--color-cloud);
+}
+
+.teamcard {
+    background-color: var(--color-white);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+        0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+        0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    width: calc((100%-72px) / 4);
+}
+
+.header3 {
+    font-family: Roboto;
+    font-size: 700;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    line-height: 2.5em;
+    color: var(--color-navy-blue);
+    text-align: center;
+    margin-bottom: 72px;
+}
+
+.team-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.our-team-lists {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
+}
+
+.text-content {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    gap: 32px;
+    width: 100%;
+    text-align: center;
+}
+
+.team-name {
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: Roboto;
+    color: var(--color-navy-blue);
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.team-position {
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
+    color: var(--color-slate);
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.team-list-icons {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 8px;
+}
+
+.team-link-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--color-iris);
+    border-radius: 20px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-icon {
+    fill: var(--color-cloud);
+}
+
+.team-link-icon:hover,
+.team-link-icon:focus {
+    background-color: var(--color-ocean);
+}
+
+/* Customers  */
+
+.customers {
+    padding-bottom: 72px;
+    color: var(--color-navy-blue);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.customers-list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.customers-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 168px;
+    height: 88px;
+    color: var(--color-slate);
+    border-radius: 4px;
+    border: 1px solid var(--color-slate);
+    cursor: pointer;
+}
+
+.customers-icon {
+    width: 100%;
+    fill: var(--color-lightslate);
+}
+
+.customers-item:hover {
+    border-color: var(--color-ocean);
+    fill: var(--color-ocean);
+}
+
+.customers-icon:hover {
+    fill: var(--color-ocean);
+}
